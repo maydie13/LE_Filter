@@ -29,7 +29,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>28</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -58,7 +58,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>27</Order>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -93,7 +93,7 @@
       <nameOverride>Stout Weaver Idols x1 Early Resists</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>26</Order>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -131,7 +131,7 @@
       <nameOverride>Stout Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>25</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -166,7 +166,7 @@
       <nameOverride>Humble Weaver Idols x1 Early Resists</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>24</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -206,7 +206,7 @@
       <nameOverride>Humble Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>23</Order>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -241,7 +241,7 @@
       <nameOverride>Small Weaver Idols x1 Early Resists </nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>22</Order>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -284,7 +284,7 @@
       <nameOverride>Small Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>21</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -318,7 +318,7 @@
       <nameOverride>Minor Weaver Idols x1 Early Resist</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>20</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -358,7 +358,7 @@
       <nameOverride>Minor Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>19</Order>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -389,7 +389,7 @@
       <nameOverride>Primalist Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>18</Order>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -424,7 +424,7 @@
       <nameOverride>Rogue Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>17</Order>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -443,7 +443,7 @@
       <nameOverride>=== IDOLS ===</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>16</Order>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -483,7 +483,7 @@
       <nameOverride>Leveling Exalted</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>15</Order>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -517,7 +517,7 @@
       <nameOverride>Rogue Disenchant</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>14</Order>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -546,6 +546,53 @@
       <nameOverride>Primalist Disenchant</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
+      <Order>14</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>672</int>
+            <int>30</int>
+            <int>33</int>
+            <int>719</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>28</int>
+            <int>27</int>
+            <int>330</int>
+            <int>761</int>
+            <int>762</int>
+            <int>614</int>
+            <int>500</int>
+            <int>463</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Exalted T-6</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
       <Order>13</Order>
     </Rule>
     <Rule>
@@ -571,65 +618,11 @@
             <int>27</int>
             <int>330</int>
             <int>68</int>
-            <int>86</int>
             <int>761</int>
             <int>762</int>
             <int>614</int>
             <int>500</int>
             <int>463</int>
-            <int>477</int>
-            <int>494</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>17</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>Rogue Exalted T-6</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>12</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>431</int>
-            <int>432</int>
-            <int>433</int>
-            <int>672</int>
-            <int>30</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>28</int>
-            <int>27</int>
-            <int>330</int>
-            <int>68</int>
-            <int>86</int>
-            <int>761</int>
-            <int>762</int>
-            <int>614</int>
-            <int>500</int>
-            <int>463</int>
-            <int>477</int>
-            <int>494</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
@@ -648,7 +641,7 @@
       <nameOverride>Rogue Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>7</BeamId>
-      <Order>11</Order>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -688,7 +681,7 @@
       <nameOverride>Primalist Exalted T-6</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>10</Order>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -728,7 +721,7 @@
       <nameOverride>Primalist Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>9</Order>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -747,7 +740,7 @@
       <nameOverride>=== EXALTED ===</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>8</Order>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -856,7 +849,7 @@
       <nameOverride>Cocooned Items</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>7</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -881,7 +874,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>6</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -906,7 +899,7 @@
       <nameOverride>LP - 1</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>5</Order>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -929,6 +922,31 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>LP - 2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>5</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>4</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>21</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>LP - 4</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
       <Order>4</Order>
@@ -957,31 +975,6 @@
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
       <Order>3</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>NONE</rarity>
-          <minLegendaryPotential>4</minLegendaryPotential>
-          <maxLegendaryPotential i:nil="true" />
-          <minWeaversWill>21</minWeaversWill>
-          <maxWeaversWill i:nil="true" />
-          <advanced_DEPRECATED>false</advanced_DEPRECATED>
-          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
-          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>true</emphasized>
-      <nameOverride>LP - 4</nameOverride>
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1027,7 +1020,7 @@
       <nameOverride />
       <SoundId>8</SoundId>
       <BeamId>5</BeamId>
-      <Order>1</Order>
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1533,6 +1526,33 @@
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
       <nameOverride>Desired Legendary</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>1</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="FactionCondition">
+          <EligibleFactions>
+            <FactionID>CircleOfFortune</FactionID>
+          </EligibleFactions>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
       <Order>0</Order>
