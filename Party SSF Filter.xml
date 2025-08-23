@@ -1,0 +1,1541 @@
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Party SSF Filter</name>
+  <filterIcon>23</filterIcon>
+  <filterIconColor>10</filterIconColor>
+  <description />
+  <lastModifiedInVersion>1.3.0.2</lastModifiedInVersion>
+  <lootFilterVersion>5</lootFilterVersion>
+  <rules>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>28</Order>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>27</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>885</int>
+            <int>886</int>
+            <int>887</int>
+            <int>888</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Stout Weaver Idols x1 Early Resists</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>26</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>878</int>
+            <int>880</int>
+            <int>885</int>
+            <int>886</int>
+            <int>887</int>
+            <int>888</int>
+            <int>891</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Stout Weaver Idols x2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>25</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>867</int>
+            <int>868</int>
+            <int>869</int>
+            <int>870</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Humble Weaver Idols x1 Early Resists</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>24</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>858</int>
+            <int>860</int>
+            <int>862</int>
+            <int>866</int>
+            <int>867</int>
+            <int>868</int>
+            <int>869</int>
+            <int>870</int>
+            <int>871</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Humble Weaver Idols x2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>23</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>835</int>
+            <int>836</int>
+            <int>837</int>
+            <int>838</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Small Weaver Idols x1 Early Resists </nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>22</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>827</int>
+            <int>828</int>
+            <int>829</int>
+            <int>833</int>
+            <int>835</int>
+            <int>836</int>
+            <int>837</int>
+            <int>838</int>
+            <int>839</int>
+            <int>840</int>
+            <int>841</int>
+            <int>826</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Small Weaver Idols x2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>21</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>851</int>
+            <int>852</int>
+            <int>855</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Minor Weaver Idols x1 Early Resist</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>20</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>842</int>
+            <int>843</int>
+            <int>844</int>
+            <int>853</int>
+            <int>854</int>
+            <int>851</int>
+            <int>852</int>
+            <int>855</int>
+            <int>856</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Minor Weaver Idols x2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>19</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>148</int>
+            <int>257</int>
+            <int>226</int>
+            <int>144</int>
+            <int>329</int>
+            <int>162</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Primalist Idols</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>18</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>462</int>
+            <int>466</int>
+            <int>476</int>
+            <int>478</int>
+            <int>491</int>
+            <int>492</int>
+            <int>499</int>
+            <int>942</int>
+            <int>743</int>
+            <int>763</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Idols</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>17</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>0</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride>=== IDOLS ===</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>16</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>27</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>825</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>46</int>
+            <int>45</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Leveling Exalted</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>15</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>36</int>
+            <int>761</int>
+            <int>762</int>
+            <int>614</int>
+            <int>500</int>
+            <int>463</int>
+            <int>477</int>
+            <int>494</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Disenchant</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>14</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>348</int>
+            <int>629</int>
+            <int>555</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Primalist Disenchant</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>13</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>672</int>
+            <int>30</int>
+            <int>33</int>
+            <int>719</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>28</int>
+            <int>27</int>
+            <int>330</int>
+            <int>68</int>
+            <int>86</int>
+            <int>761</int>
+            <int>762</int>
+            <int>614</int>
+            <int>500</int>
+            <int>463</int>
+            <int>477</int>
+            <int>494</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Exalted T-6</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>12</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>672</int>
+            <int>30</int>
+            <int>33</int>
+            <int>719</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>28</int>
+            <int>27</int>
+            <int>330</int>
+            <int>68</int>
+            <int>86</int>
+            <int>761</int>
+            <int>762</int>
+            <int>614</int>
+            <int>500</int>
+            <int>463</int>
+            <int>477</int>
+            <int>494</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Rogue Exalted T-7</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>7</BeamId>
+      <Order>11</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>504</int>
+            <int>501</int>
+            <int>2</int>
+            <int>25</int>
+            <int>36</int>
+            <int>52</int>
+            <int>28</int>
+            <int>27</int>
+            <int>26</int>
+            <int>64</int>
+            <int>643</int>
+            <int>102</int>
+            <int>348</int>
+            <int>629</int>
+            <int>555</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Primalist Exalted T-6</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>10</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>504</int>
+            <int>501</int>
+            <int>2</int>
+            <int>25</int>
+            <int>36</int>
+            <int>52</int>
+            <int>28</int>
+            <int>27</int>
+            <int>26</int>
+            <int>64</int>
+            <int>643</int>
+            <int>102</int>
+            <int>348</int>
+            <int>629</int>
+            <int>555</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Primalist Exalted T-7</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>9</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="CharacterLevelCondition">
+          <minimumLvl>0</minimumLvl>
+          <maximumLvl>0</maximumLvl>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride>=== EXALTED ===</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>8</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="UniqueModifiersCondition">
+          <Uniques>
+            <UniqueId>401</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>387</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>399</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>400</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>398</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>380</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>389</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>379</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>390</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>383</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>384</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>385</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>382</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>393</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>397</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>396</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>395</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>386</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>394</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>381</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>388</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>391</UniqueId>
+            <Rolls />
+          </Uniques>
+          <Uniques>
+            <UniqueId>392</UniqueId>
+            <Rolls />
+          </Uniques>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Cocooned Items</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>7</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE LEGENDARY</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>false</emphasized>
+      <nameOverride />
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>6</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>1</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>15</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>LP - 1</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>5</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>2</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>17</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>LP - 2</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>4</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>3</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>19</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>LP - 3</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>3</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>4</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill>21</minWeaversWill>
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>LP - 4</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>2</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="UniqueModifiersCondition">
+          <Uniques>
+            <UniqueId>277</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride />
+      <SoundId>8</SoundId>
+      <BeamId>5</BeamId>
+      <Order>1</Order>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="UniqueModifiersCondition">
+          <Uniques>
+            <UniqueId>314</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>370</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>5</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>240</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>218</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>5</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>416</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>336</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>277</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>84</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>204</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>144</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>358</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>189</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>306</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>71</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>431</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent_deprecated>false</levelDependent_deprecated>
+      <minLvl_deprecated>0</minLvl_deprecated>
+      <maxLvl_deprecated>0</maxLvl_deprecated>
+      <emphasized>true</emphasized>
+      <nameOverride>Desired Legendary</nameOverride>
+      <SoundId>0</SoundId>
+      <BeamId>0</BeamId>
+      <Order>0</Order>
+    </Rule>
+  </rules>
+</ItemFilter>
