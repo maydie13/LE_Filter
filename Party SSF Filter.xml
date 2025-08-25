@@ -3,7 +3,7 @@
   <filterIcon>23</filterIcon>
   <filterIconColor>10</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.3.0.3</lastModifiedInVersion>
+  <lastModifiedInVersion>1.3.0.4</lastModifiedInVersion>
   <lootFilterVersion>5</lootFilterVersion>
   <rules>
     <Rule>
@@ -29,7 +29,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>32</Order>
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -58,7 +58,7 @@
       <nameOverride>=== IDOL Hider === </nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>31</Order>
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -96,7 +96,7 @@
       <nameOverride>Stout Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>30</Order>
+      <Order>29</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -136,7 +136,7 @@
       <nameOverride>Humble Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>29</Order>
+      <Order>28</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -178,7 +178,7 @@
       <nameOverride>Small Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>28</Order>
+      <Order>27</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -218,7 +218,7 @@
       <nameOverride>Minor Weaver Idols x2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>27</Order>
+      <Order>26</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -252,7 +252,7 @@
       <nameOverride>Weaver Idols x1 Early Resist</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>26</Order>
+      <Order>25</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -266,7 +266,7 @@
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
@@ -281,23 +281,15 @@
       <nameOverride>Primalist Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>25</Order>
+      <Order>24</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>462</int>
-            <int>466</int>
-            <int>476</int>
             <int>478</int>
-            <int>491</int>
-            <int>492</int>
-            <int>499</int>
-            <int>942</int>
             <int>743</int>
-            <int>763</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -316,7 +308,7 @@
       <nameOverride>Rogue Idols</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>24</Order>
+      <Order>23</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -335,7 +327,7 @@
       <nameOverride>=== IDOL SECTION===</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>23</Order>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -383,7 +375,7 @@
         </Condition>
       </conditions>
       <color>0</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent_deprecated>false</levelDependent_deprecated>
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
@@ -391,7 +383,7 @@
       <nameOverride>Res &amp; Hp Exalted</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>22</Order>
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -423,7 +415,7 @@
       <nameOverride>Rogue Disenchant</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>21</Order>
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -452,7 +444,7 @@
       <nameOverride>Primalist Disenchant</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>20</Order>
+      <Order>19</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -461,25 +453,21 @@
           <affixes>
             <int>503</int>
             <int>431</int>
-            <int>432</int>
             <int>433</int>
-            <int>672</int>
-            <int>30</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
             <int>25</int>
             <int>52</int>
             <int>36</int>
             <int>28</int>
             <int>27</int>
-            <int>761</int>
-            <int>762</int>
-            <int>614</int>
-            <int>500</int>
-            <int>463</int>
+            <int>536</int>
+            <int>502</int>
+            <int>71</int>
+            <int>330</int>
+            <int>64</int>
+            <int>640</int>
+            <int>86</int>
+            <int>8</int>
+            <int>59</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -513,7 +501,7 @@
       <nameOverride>Rogue Target Exalted T-6</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>19</Order>
+      <Order>18</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -522,26 +510,20 @@
           <affixes>
             <int>503</int>
             <int>431</int>
-            <int>432</int>
             <int>433</int>
-            <int>672</int>
-            <int>30</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
+            <int>640</int>
+            <int>536</int>
+            <int>59</int>
+            <int>8</int>
             <int>25</int>
             <int>52</int>
             <int>36</int>
             <int>28</int>
             <int>27</int>
             <int>330</int>
-            <int>761</int>
-            <int>762</int>
-            <int>614</int>
-            <int>500</int>
-            <int>463</int>
+            <int>502</int>
+            <int>71</int>
+            <int>86</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
@@ -801,35 +783,29 @@
       <nameOverride>Rogue Havoc Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>7</BeamId>
-      <Order>18</Order>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>28</int>
+            <int>27</int>
+            <int>640</int>
             <int>503</int>
             <int>431</int>
-            <int>432</int>
+            <int>502</int>
+            <int>86</int>
+            <int>8</int>
+            <int>59</int>
+            <int>64</int>
             <int>433</int>
-            <int>672</int>
-            <int>30</int>
-            <int>33</int>
-            <int>719</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
+            <int>330</int>
+            <int>536</int>
             <int>25</int>
             <int>52</int>
             <int>36</int>
-            <int>28</int>
-            <int>27</int>
-            <int>330</int>
-            <int>761</int>
-            <int>762</int>
-            <int>614</int>
-            <int>500</int>
-            <int>463</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
@@ -863,35 +839,11 @@
       <nameOverride>Rogue Target Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>7</BeamId>
-      <Order>17</Order>
+      <Order>16</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
       <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>504</int>
-            <int>501</int>
-            <int>2</int>
-            <int>25</int>
-            <int>36</int>
-            <int>52</int>
-            <int>28</int>
-            <int>27</int>
-            <int>26</int>
-            <int>64</int>
-            <int>643</int>
-            <int>348</int>
-            <int>629</int>
-            <int>555</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>ONE_HANDED_AXE</EquipmentType>
@@ -907,6 +859,213 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>50</int>
+            <int>504</int>
+            <int>503</int>
+            <int>502</int>
+            <int>501</int>
+            <int>505</int>
+            <int>945</int>
+            <int>78</int>
+            <int>62</int>
+            <int>77</int>
+            <int>79</int>
+            <int>63</int>
+            <int>76</int>
+            <int>2</int>
+            <int>89</int>
+            <int>91</int>
+            <int>671</int>
+            <int>943</int>
+            <int>49</int>
+            <int>4</int>
+            <int>84</int>
+            <int>38</int>
+            <int>88</int>
+            <int>87</int>
+            <int>507</int>
+            <int>431</int>
+            <int>432</int>
+            <int>433</int>
+            <int>434</int>
+            <int>669</int>
+            <int>670</int>
+            <int>672</int>
+            <int>16</int>
+            <int>9</int>
+            <int>12</int>
+            <int>23</int>
+            <int>18</int>
+            <int>93</int>
+            <int>30</int>
+            <int>61</int>
+            <int>37</int>
+            <int>15</int>
+            <int>0</int>
+            <int>33</int>
+            <int>32</int>
+            <int>35</int>
+            <int>39</int>
+            <int>100</int>
+            <int>719</int>
+            <int>720</int>
+            <int>721</int>
+            <int>722</int>
+            <int>723</int>
+            <int>724</int>
+            <int>725</int>
+            <int>6</int>
+            <int>5</int>
+            <int>72</int>
+            <int>58</int>
+            <int>103</int>
+            <int>101</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>825</int>
+            <int>41</int>
+            <int>3</int>
+            <int>81</int>
+            <int>74</int>
+            <int>426</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>65</int>
+            <int>83</int>
+            <int>66</int>
+            <int>82</int>
+            <int>67</int>
+            <int>75</int>
+            <int>8</int>
+            <int>59</int>
+            <int>760</int>
+            <int>20</int>
+            <int>44</int>
+            <int>90</int>
+            <int>43</int>
+            <int>22</int>
+            <int>99</int>
+            <int>382</int>
+            <int>824</int>
+            <int>51</int>
+            <int>29</int>
+            <int>427</int>
+            <int>715</int>
+            <int>97</int>
+            <int>69</int>
+            <int>40</int>
+            <int>42</int>
+            <int>717</int>
+            <int>28</int>
+            <int>27</int>
+            <int>96</int>
+            <int>95</int>
+            <int>34</int>
+            <int>330</int>
+            <int>331</int>
+            <int>506</int>
+            <int>718</int>
+            <int>759</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>98</int>
+            <int>64</int>
+            <int>102</int>
+            <int>643</int>
+            <int>68</int>
+            <int>60</int>
+            <int>56</int>
+            <int>47</int>
+            <int>55</int>
+            <int>54</int>
+            <int>85</int>
+            <int>94</int>
+            <int>57</int>
+            <int>48</int>
+            <int>11</int>
+            <int>86</int>
+            <int>341</int>
+            <int>428</int>
+            <int>429</int>
+            <int>14</int>
+            <int>358</int>
+            <int>359</int>
+            <int>363</int>
+            <int>364</int>
+            <int>365</int>
+            <int>366</int>
+            <int>367</int>
+            <int>368</int>
+            <int>369</int>
+            <int>370</int>
+            <int>371</int>
+            <int>372</int>
+            <int>373</int>
+            <int>374</int>
+            <int>375</int>
+            <int>376</int>
+            <int>377</int>
+            <int>378</int>
+            <int>379</int>
+            <int>380</int>
+            <int>655</int>
+            <int>656</int>
+            <int>764</int>
+            <int>765</int>
+            <int>360</int>
+            <int>361</int>
+            <int>362</int>
+            <int>560</int>
+            <int>561</int>
+            <int>562</int>
+            <int>563</int>
+            <int>564</int>
+            <int>565</int>
+            <int>566</int>
+            <int>567</int>
+            <int>568</int>
+            <int>569</int>
+            <int>570</int>
+            <int>588</int>
+            <int>589</int>
+            <int>592</int>
+            <int>596</int>
+            <int>600</int>
+            <int>601</int>
+            <int>603</int>
+            <int>604</int>
+            <int>605</int>
+            <int>631</int>
+            <int>639</int>
+            <int>652</int>
+            <int>653</int>
+            <int>654</int>
+            <int>726</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>12</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
       </conditions>
       <color>14</color>
       <isEnabled>true</isEnabled>
@@ -917,7 +1076,7 @@
       <nameOverride>Primalist Target Exalted T-6</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>16</Order>
+      <Order>15</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1182,7 +1341,7 @@
       <nameOverride>Primalist Havoc Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>15</Order>
+      <Order>14</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1236,7 +1395,7 @@
       <nameOverride>Primalist Target Exalted T-7</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>14</Order>
+      <Order>13</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1287,7 +1446,7 @@
       <nameOverride>Primodrial Affixes</nameOverride>
       <SoundId>10</SoundId>
       <BeamId>8</BeamId>
-      <Order>13</Order>
+      <Order>12</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1306,7 +1465,7 @@
       <nameOverride>=== EXALTED SECTION ===</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>12</Order>
+      <Order>11</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1331,7 +1490,7 @@
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>11</Order>
+      <Order>10</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1440,7 +1599,7 @@
       <nameOverride>Cocooned Items</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>10</Order>
+      <Order>9</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1465,7 +1624,7 @@
       <nameOverride>LP - 1</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>9</Order>
+      <Order>8</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1490,7 +1649,7 @@
       <nameOverride>LP - 2</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>8</Order>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1515,7 +1674,7 @@
       <nameOverride>LP - 3</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>7</Order>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1540,7 +1699,7 @@
       <nameOverride>LP - 4</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>6</Order>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1577,7 +1736,7 @@
           </Uniques>
         </Condition>
       </conditions>
-      <color>0</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent_deprecated>false</levelDependent_deprecated>
       <minLvl_deprecated>0</minLvl_deprecated>
@@ -1586,7 +1745,7 @@
       <nameOverride />
       <SoundId>8</SoundId>
       <BeamId>5</BeamId>
-      <Order>5</Order>
+      <Order>4</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -1597,51 +1756,6 @@
             <Rolls>
               <UniqueModifierWithRollId>
                 <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>370</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>3</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>4</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>5</RollId>
                 <Modifier>
                   <LessIsBetter>false</LessIsBetter>
                   <MinRoll i:nil="true" />
@@ -1812,7 +1926,123 @@
             </Rolls>
           </Uniques>
           <Uniques>
-            <UniqueId>84</UniqueId>
+            <UniqueId>404</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>137</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>251</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>19</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>433</UniqueId>
             <Rolls>
               <UniqueModifierWithRollId>
                 <RollId>0</RollId>
@@ -1848,204 +2078,6 @@
               </UniqueModifierWithRollId>
               <UniqueModifierWithRollId>
                 <RollId>4</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>204</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>144</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>2</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>3</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>358</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>2</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>3</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>4</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>189</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>2</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>306</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>0</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>1</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>2</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>3</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>4</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-            </Rolls>
-          </Uniques>
-          <Uniques>
-            <UniqueId>71</UniqueId>
-            <Rolls>
-              <UniqueModifierWithRollId>
-                <RollId>2</RollId>
-                <Modifier>
-                  <LessIsBetter>false</LessIsBetter>
-                  <MinRoll i:nil="true" />
-                  <MaxRoll i:nil="true" />
-                </Modifier>
-              </UniqueModifierWithRollId>
-              <UniqueModifierWithRollId>
-                <RollId>3</RollId>
                 <Modifier>
                   <LessIsBetter>false</LessIsBetter>
                   <MinRoll i:nil="true" />
@@ -2083,6 +2115,117 @@
               </UniqueModifierWithRollId>
             </Rolls>
           </Uniques>
+          <Uniques>
+            <UniqueId>332</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>348</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>1</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>2</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>3</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>4</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+              <UniqueModifierWithRollId>
+                <RollId>5</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
+          <Uniques>
+            <UniqueId>409</UniqueId>
+            <Rolls>
+              <UniqueModifierWithRollId>
+                <RollId>0</RollId>
+                <Modifier>
+                  <LessIsBetter>false</LessIsBetter>
+                  <MinRoll i:nil="true" />
+                  <MaxRoll i:nil="true" />
+                </Modifier>
+              </UniqueModifierWithRollId>
+            </Rolls>
+          </Uniques>
         </Condition>
       </conditions>
       <color>6</color>
@@ -2094,7 +2237,7 @@
       <nameOverride>Desired Legendary</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>4</Order>
+      <Order>3</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2113,7 +2256,7 @@
       <nameOverride>=== UNIQ SECTION ===</nameOverride>
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
-      <Order>3</Order>
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -2129,6 +2272,16 @@
           </type>
           <subTypes />
         </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
+          <minLegendaryPotential i:nil="true" />
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
@@ -2136,251 +2289,6 @@
       <minLvl_deprecated>0</minLvl_deprecated>
       <maxLvl_deprecated>0</maxLvl_deprecated>
       <emphasized>true</emphasized>
-      <nameOverride />
-      <SoundId>0</SoundId>
-      <BeamId>0</BeamId>
-      <Order>2</Order>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>50</int>
-            <int>504</int>
-            <int>503</int>
-            <int>502</int>
-            <int>501</int>
-            <int>505</int>
-            <int>945</int>
-            <int>78</int>
-            <int>62</int>
-            <int>77</int>
-            <int>79</int>
-            <int>63</int>
-            <int>76</int>
-            <int>2</int>
-            <int>89</int>
-            <int>91</int>
-            <int>671</int>
-            <int>943</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>88</int>
-            <int>87</int>
-            <int>507</int>
-            <int>431</int>
-            <int>432</int>
-            <int>433</int>
-            <int>434</int>
-            <int>669</int>
-            <int>670</int>
-            <int>672</int>
-            <int>16</int>
-            <int>9</int>
-            <int>12</int>
-            <int>23</int>
-            <int>18</int>
-            <int>93</int>
-            <int>30</int>
-            <int>61</int>
-            <int>37</int>
-            <int>15</int>
-            <int>0</int>
-            <int>33</int>
-            <int>32</int>
-            <int>35</int>
-            <int>39</int>
-            <int>100</int>
-            <int>719</int>
-            <int>720</int>
-            <int>721</int>
-            <int>722</int>
-            <int>723</int>
-            <int>724</int>
-            <int>725</int>
-            <int>6</int>
-            <int>5</int>
-            <int>72</int>
-            <int>58</int>
-            <int>103</int>
-            <int>101</int>
-            <int>41</int>
-            <int>3</int>
-            <int>81</int>
-            <int>74</int>
-            <int>426</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>825</int>
-            <int>65</int>
-            <int>83</int>
-            <int>66</int>
-            <int>82</int>
-            <int>67</int>
-            <int>75</int>
-            <int>31</int>
-            <int>17</int>
-            <int>80</int>
-            <int>13</int>
-            <int>24</int>
-            <int>10</int>
-            <int>19</int>
-            <int>7</int>
-            <int>1</int>
-            <int>46</int>
-            <int>104</int>
-            <int>92</int>
-            <int>45</int>
-            <int>425</int>
-            <int>8</int>
-            <int>59</int>
-            <int>760</int>
-            <int>20</int>
-            <int>44</int>
-            <int>90</int>
-            <int>43</int>
-            <int>22</int>
-            <int>99</int>
-            <int>382</int>
-            <int>824</int>
-            <int>51</int>
-            <int>29</int>
-            <int>427</int>
-            <int>715</int>
-            <int>97</int>
-            <int>69</int>
-            <int>40</int>
-            <int>42</int>
-            <int>717</int>
-            <int>28</int>
-            <int>27</int>
-            <int>96</int>
-            <int>95</int>
-            <int>34</int>
-            <int>330</int>
-            <int>331</int>
-            <int>506</int>
-            <int>718</int>
-            <int>759</int>
-            <int>26</int>
-            <int>71</int>
-            <int>70</int>
-            <int>73</int>
-            <int>98</int>
-            <int>64</int>
-            <int>102</int>
-            <int>643</int>
-            <int>68</int>
-            <int>60</int>
-            <int>56</int>
-            <int>47</int>
-            <int>55</int>
-            <int>54</int>
-            <int>85</int>
-            <int>94</int>
-            <int>57</int>
-            <int>48</int>
-            <int>11</int>
-            <int>86</int>
-            <int>341</int>
-            <int>428</int>
-            <int>429</int>
-            <int>14</int>
-            <int>21</int>
-            <int>334</int>
-            <int>335</int>
-            <int>336</int>
-            <int>337</int>
-            <int>338</int>
-            <int>342</int>
-            <int>346</int>
-            <int>347</int>
-            <int>348</int>
-            <int>349</int>
-            <int>350</int>
-            <int>351</int>
-            <int>352</int>
-            <int>353</int>
-            <int>354</int>
-            <int>355</int>
-            <int>356</int>
-            <int>357</int>
-            <int>648</int>
-            <int>663</int>
-            <int>665</int>
-            <int>666</int>
-            <int>667</int>
-            <int>737</int>
-            <int>332</int>
-            <int>333</int>
-            <int>340</int>
-            <int>343</int>
-            <int>344</int>
-            <int>345</int>
-            <int>539</int>
-            <int>540</int>
-            <int>541</int>
-            <int>542</int>
-            <int>543</int>
-            <int>544</int>
-            <int>545</int>
-            <int>555</int>
-            <int>558</int>
-            <int>559</int>
-            <int>585</int>
-            <int>590</int>
-            <int>591</int>
-            <int>595</int>
-            <int>599</int>
-            <int>602</int>
-            <int>606</int>
-            <int>621</int>
-            <int>622</int>
-            <int>626</int>
-            <int>627</int>
-            <int>629</int>
-            <int>644</int>
-            <int>646</int>
-            <int>660</int>
-            <int>661</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>7</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes>
-            <int>24</int>
-            <int>25</int>
-            <int>53</int>
-            <int>26</int>
-            <int>54</int>
-            <int>27</int>
-            <int>28</int>
-            <int>29</int>
-            <int>30</int>
-            <int>31</int>
-            <int>55</int>
-            <int>42</int>
-          </subTypes>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent_deprecated>false</levelDependent_deprecated>
-      <minLvl_deprecated>0</minLvl_deprecated>
-      <maxLvl_deprecated>0</maxLvl_deprecated>
-      <emphasized>false</emphasized>
       <nameOverride />
       <SoundId>0</SoundId>
       <BeamId>0</BeamId>
@@ -2392,6 +2300,8 @@
         <Condition i:type="AffixCondition">
           <affixes>
             <int>348</int>
+            <int>640</int>
+            <int>536</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
